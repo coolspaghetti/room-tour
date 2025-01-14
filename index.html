@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="room-container">
+        <img class="background" src="assets/room.png" alt="Room Background" draggable="false">
+        <img class="item furniture" src="assets/table.png" alt="Table" draggable="false">
+        <div class="item-container">
+          <div class="item-label">This is a simple little cube. Nothing special. Just...green.</div>
+          <img class="item clickable" src="assets/item.png" alt="Item" draggable="false" data-popup="cube-info">
+        </div>
+        <div class="item-container">
+          <div class="item-label">A poster of some rock band? Who knows.</div>
+          <img class="item clickable iron-howl" src="assets/iron-howl-poster.png" alt="Item" draggable="false" data-popup="iron-howl-info">
+        </div>
+        <div class="item-container">
+          <div class="item-label">Metallica..Kill em all.</div>
+          <img class="item clickable metallica" src="assets/metallica-poster.png" alt="Item" draggable="false" data-popup="metallica-info">
+        </div>
+        <div class="item-container">
+          <div class="item-label">Beware of Dog!</div>
+          <img class="item clickable thing" src="assets/thing-poster.png" alt="Item" draggable="false" data-popup="thing-info">
+        </div>
+      </div>
+
+<!-- buttons -->      
+    <button class="margin-button left-button">
+    </button>
+    <button class="margin-button right-button">
+    </button>
+
+<!-- popup content -->
+    <div class="popup" id="cube-info">
+      <span class="close">&times;</span>
+      <div class="popup-content">
+        <p>This is the popup content for the green cube! yay!</p>
+        <img src="assets/item.png">
+      </div>
+    </div>
+    <div class="popup" id="iron-howl-info">
+      <span class="close">&times;</span>
+      <div class="popup-content">
+        <p>A poster of local band Iron Howl. <br>They're back on tour with an all new singer!</p>
+        <img src="assets/item.png">
+      </div>
+    </div>
+    <div class="popup" id="metallica-info">
+      <span class="close">&times;</span>
+      <div class="popup-content">
+        <p>A poster of Metallica's 1983 debut album 'Kill 'em All'</p>
+        <img src="assets/item.png">
+      </div>
+    </div>
+    <div class="popup" id="thing-info">
+      <span class="close">&times;</span>
+      <div class="popup-content">
+        <p>A poster of the 1982 movie 'The Thing'</p>
+        <img src="assets/item.png">
+      </div>
+    </div>
+</body>
+<footer>
+
+</footer>

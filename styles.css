@@ -1,0 +1,141 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.room-container {
+    position: relative;
+    width: 95vw;
+    height: 95vh;
+    margin: 1em auto;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.item {
+    position: absolute;
+    object-fit: contain;
+}
+
+.item-label {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.7em;
+    border-radius: 0.3em;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    transition: opacity 0.3s ease;
+    z-index: 100;
+    opacity: 0;
+    width: 80%;
+}
+
+.item-container:hover .item-label {
+    opacity: 1;
+}
+
+.furniture {
+    height: 25%;
+    bottom: 20%;  
+    left: 45%;    
+}
+
+.clickable {
+    cursor: pointer;
+    height: 5%;
+    top: 44%;     
+    left: 52%;    
+}
+
+.clickable:hover {
+    transform: scale(1.1);
+}
+
+.iron-howl {
+    height: 20%;
+    left: 35%;    
+    top: 25%;     
+}
+
+.metallica {
+    height: 15%;
+    left: 32%;    
+    top: 35%;     
+}
+
+.thing {
+    height: 15%;
+    left: 57%;    
+    top: 30%;     
+}
+
+.margin-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.margin-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.left-button {
+    left: 2%;    
+}
+
+.right-button {
+    right: 2%;    
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: wheat;
+    opacity: 0.87;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 40vw;
+    height: 40vh;
+    max-height: 80vh;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.popup-content {
+    position: relative;
+
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+    color: black;
+}
