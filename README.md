@@ -10,10 +10,10 @@ He is interested in computer science, tech in general, heavy music and movies.
 - hover over items for brief description
 - click on items to open 'item view'
 - 'item view' features a longer description
-- 'item view' features the ability to inspect an item further e.g. have a larger image, front- and backside, click to open item for more items
-- click on certain items to open them e.g. desk drawers, closet
-- use buttons to see other side of the room
-- scroll to zoom
+- 'item view' features the ability to inspect an item further e.g. have a larger image, front- and backside, click to open item for more items (not yet implemented)
+- click on certain items to open them e.g. desk drawers, closet (not yet implemented)
+- use buttons to see other side of the room (not yet implemented)
+- scroll to zoom (not yet implemented)
 
 ### About the Project
 So far, this project uses plain old HTML and CSS.
