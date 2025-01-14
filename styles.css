@@ -4,6 +4,7 @@ body {
     padding: 0;
     overflow: hidden;
     font-weight: bold;
+    background-color: darkgrey;
 }
 
 .room-container {
@@ -47,8 +48,8 @@ body {
 
 .furniture {
     height: 25%;
-    bottom: 20%;  
-    left: 45%;    
+    bottom: 34%;  
+    left: 46%;    
 }
 
 .clickable {
